@@ -1,0 +1,9 @@
+[project]
+name = "micro-investment-pool"
+description = "A Clarity-based smart contract to enable micro-investments in real estate pools."
+authors = ["Your Name <your.email@example.com>"]
+clarity_version = "1.0.0"
+epoch = "2.05"
+
+[contracts.pool]
+path = "contracts/pool.clar"
