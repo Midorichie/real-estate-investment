@@ -1,9 +1,15 @@
 [project]
 name = "micro-investment-pool"
-description = "A Clarity-based smart contract to enable micro-investments in real estate pools."
+description = "A Clarity-based smart contract for real estate micro-investments"
 authors = ["Your Name <your.email@example.com>"]
 clarity_version = "1.0.0"
 epoch = "2.05"
 
 [contracts.pool]
 path = "contracts/pool.clar"
+
+[contracts.projects]
+path = "contracts/projects.clar"
+
+[contracts.projects-trait]
+path = "contracts/projects-trait.clar"
